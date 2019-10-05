@@ -2,33 +2,43 @@ body{
     background: none;
 }
 h1, h2{
-    font-size: 25px;
+    font-size: 1.5rem;
 }
-section.hero img{
-    width: 100%;
-    border-radius: 0;
-}
+
+/*
+ *  container style
+*/
 .container {
     width: 100%;
     margin: 0;
 }
 
-aside.left,aside.right{
-    float: none;
-    text-align: center;
-}
-
-section.map iframe{
+/*
+ *  section style
+*/
+section.hero img{
     width: 100%;
+    border-radius: 0;
 }
-
+section.intro p{
+    width: auto;
+    margin: 0 1.3rem;
+}
 section.contact p,section.contact address{
     text-align: center;
 }
-section.intro p{
-    margin: 0 20px;
+section.map{
+    margin-top: 1.3rem;
+}
+section.map iframe{
+    width: 100%;
+    border-radius: 0;
 }
 
-section.map{
-    margin-top: 20px;
+/*
+ *  aside style
+*/
+aside.left,aside.right{
+    float: none;
+    text-align: center;
 }
