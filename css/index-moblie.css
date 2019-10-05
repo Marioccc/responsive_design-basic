@@ -1,0 +1,34 @@
+body{
+    background: none;
+}
+h1, h2{
+    font-size: 25px;
+}
+section.hero img{
+    width: 100%;
+    border-radius: 0;
+}
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+aside.left,aside.right{
+    float: none;
+    text-align: center;
+}
+
+section.map iframe{
+    width: 100%;
+}
+
+section.contact p,section.contact address{
+    text-align: center;
+}
+section.intro p{
+    margin: 0 20px;
+}
+
+section.map{
+    margin-top: 20px;
+}
